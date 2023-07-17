@@ -66,7 +66,7 @@ export default function InvoiceTable() {
       sessionStorage.setItem('invoiceId', invoiceId)      
       // navigate('/view-invoice')
       // navigate('/view-invoice', { target: '_blank' });
-      window.open('/invoice-app/view-invoice', '_blank');
+      window.open('/view-invoice', '_blank');
     }
     useEffect(() => {
         getInvoices();

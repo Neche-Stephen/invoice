@@ -239,7 +239,7 @@ export default function CreateInvoice() {
           sessionStorage.setItem('items', itemsString)
           setGeneratingInvoice(false);
           resetAll();
-          window.open('/invoice-app/view-invoice', '_blank');
+          window.open('/view-invoice', '_blank');
           setShowItemDiv(false);
           setShowCustomerDiv(true);
           setIsDisabled(false);
