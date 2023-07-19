@@ -358,7 +358,7 @@ export default function CreateInvoice() {
             <Form.Group className="mb-3" controlId="cAddress">
               <Form.Control type="text" name="cAddress" placeholder="Customer Address" value = {cAddress} onChange={handleChangeCustomers} />
             </Form.Group>
-            <Form.Group controlId="currency">
+            <Form.Group className='mb-3 mb-sm-0' controlId="currency">
               <select
                 required
                 className="form-select"
@@ -391,7 +391,7 @@ export default function CreateInvoice() {
             </Form.Group>
 
           </Col>
-          <Col>
+          <Col xs ='12' md = 'auto' className='mt-3 mt-md-0'>
               <Button type='submit' className='create-invoice-btn'>Go to Item Details <ChevronRight /> </Button>
           </Col>
         </Form>
