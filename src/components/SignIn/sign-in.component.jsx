@@ -95,6 +95,7 @@ export default function SignIn() {
         <Row className='justify-content-center'>
           <Col md = '6' lg ='4'>
             <h5>Sign in and create invoices for your customers</h5>
+            <p><i>To test, use chinecheremubawike@gmail.com as email and 123456 as password</i></p>
             <Form onSubmit={handleSubmit}>
               <Form.Group className="mb-3" controlId="email">
                 <Form.Label>Email address</Form.Label>
